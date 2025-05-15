@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "Usage: $0 <what_to_set_up>"
+  exit 1
+fi
+
+DIR_NAME="$1"
+
+if [ -d "${DIR_NAME}" ]; then
+  bash "${DIR_NAME}/setup.sh"
+else
+  echo "No config found for ${DIR_NAME}"
+fi
