@@ -1,4 +1,4 @@
-echo "Installing and configuring ZSH..."
+echo "Installing ZSH..."
 
 sudo pacman -S --noconfirm zsh
 
