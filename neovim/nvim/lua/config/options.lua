@@ -8,3 +8,7 @@ vim.o.scrolloff = 10
 
 vim.g.snacks_animate = false
 vim.g.autoformat = false
+
+vim.opt.spell = true
+vim.opt.spelllang = { "en_us", "de_de" }
+
